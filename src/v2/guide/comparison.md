@@ -174,7 +174,7 @@ div.list-container
 
 #### CSS 的组件作用域
 
-除非你把组件分布在多个文件上(例如 [CSS Modules](https://github.com/gajus/react-css-modules))，要不在 React 中作用域内的 CSS 就会产生警告。非常简单的 CSS 还可以工作，但是稍微复杂点的，比如悬停状态、媒体查询、伪类选择符等要么通过沉重的依赖来重做要么就直接不能用。
+除非你把组件分布在多个文件上（例如 [CSS Modules](https://github.com/gajus/react-css-modules)），要不在 React 中作用域内的 CSS 就会产生警告。非常简单的 CSS 还可以工作，但是稍微复杂点的，比如悬停状态、媒体查询、伪类选择符等要么通过沉重的依赖来重做要么就直接不能用。
 
 而 Vue 可以让你在每个[单文件组件](single-file-components.html)中完全访问 CSS。
 
